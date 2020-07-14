@@ -13,7 +13,8 @@ WIN_COMBINATIONS = [
   [2, 4, 6],
   [3, 4, 5],
   [6, 7, 8],
-  ]
+]
+
 
 def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
@@ -28,5 +29,3 @@ def won?(board)
     postion_1 == postion_2 && postion_2 == postion_3 && position_taken (board, win_index_1)
   end
 end
-
-    postion_1 == postion_2 && postion_2 == postion_3 && position_taken (board, win_index_1)
