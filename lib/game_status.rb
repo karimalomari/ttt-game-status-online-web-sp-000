@@ -26,6 +26,11 @@ def won?(board)
     postion_2 = board[win_index_2]
     postion_3 = board[win_index_3]
     
-    postion_1 == postion_2 && postion_2 == postion_3 && position_taken (board, win_index_1)
-  end
+    if position_1 == "X" && position_2 == "X" && position_3 == "X"
+      return win_combo
+    elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
+      return win_combo
+    end
+  }
+  return false
 end
