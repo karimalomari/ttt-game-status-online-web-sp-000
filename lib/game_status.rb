@@ -28,3 +28,5 @@ def won?(board)
     postion_1 == postion_2 && postion_2 == postion_3 && position_taken (board, win_index_1)
   end
 end
+
+    postion_1 == postion_2 && postion_2 == postion_3 && position_taken (board, win_index_1)
