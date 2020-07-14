@@ -24,4 +24,6 @@ def won?(board)
     postion_1 = board[win_index_1]
     postion_2 = board[win_index_2]
     postion_3 = board[win_index_3]
+    
+    
 end
